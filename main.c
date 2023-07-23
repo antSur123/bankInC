@@ -15,14 +15,15 @@ int is_int_in_array(int value, int array[], int arraySize) {
 
     for (i = 0; i < arrayLength; i++) {
         if (value == array[i]) {
-            return 1; // Value is found in the array, return 1
+            return 1; // Value is found in the array. Return 1
         }
     }
 
-    return 0; // Value is not found in the array, return 0
+    return 0; // Value is not found in the array. Return 0
 }
 
 
+/*
 int is_input_expected(void *data, void *array, int dataType) {
    // Check if input is not an int
 
@@ -34,12 +35,10 @@ int is_input_expected(void *data, void *array, int dataType) {
             continue; // Restart the loop
         }
         break;
-
-
    }
 
-
 }
+*/
 
 
 
@@ -156,8 +155,8 @@ void create_account() {
     acntName[strcspn(acntName, "\n")] = '\0';  // Remove buggy newline character
 
     // Name confirmation
-    printf("Is the username %s correct? Enter Y/n for yes and no respectivley.\n> ", acntName);
-    scanf("%c", );
+    printf("Is the username %s correct? Enter Y/n for yes and no respectively.\n> ", acntName);
+    //scanf("%c", );
 
 
 

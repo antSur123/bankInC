@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1687536657 source:c:\users\tolek\documents\c or c++ files\bank\main.c
+	<stdio.h>
+	<stdlib.h>
+	<sys/stat.h>
+
