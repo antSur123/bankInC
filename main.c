@@ -156,7 +156,7 @@ void create_account() {
 
     // Name confirmation
     printf("Is the username %s correct? Enter Y/n for yes and no respectively.\n> ", acntName);
-    //scanf("%c", );
+    getchar();
 
 
 
